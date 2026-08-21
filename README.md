@@ -1,128 +1,196 @@
-# 🏥 Hospital Management Analytics Dashboard
+# Hospital Management Analytics Dashboard
 
-An interactive Hospital Management Analytics Dashboard developed using **Microsoft Excel, Power BI, DAX, and Machine Learning** to analyze hospital operations, monitor performance, predict patient risk, and forecast future trends.
+## Project Overview
 
----
+This project presents an interactive **Hospital Management Analytics Dashboard** developed using **Microsoft Excel, Power BI, DAX, and Machine Learning** to analyze hospital operations, patient activity, doctor performance, revenue, bed utilization, patient risk, and future trends.
 
-## 📌 About the Project
-
-Healthcare organizations generate large amounts of operational data every day. This project transforms that data into meaningful insights through interactive dashboards and predictive analytics, helping stakeholders make informed business decisions.
+The dashboard transforms raw healthcare data into meaningful and actionable insights through interactive visualizations, predictive analytics, and forecasting. It helps stakeholders monitor key performance indicators, identify operational trends, optimize resources, and support data-driven decision-making.
 
 ---
 
-## 🚀 Features
+## Dashboard Pages
 
-✔ Interactive Multi-page Dashboard
+### 🏠 Home
 
-✔ Executive KPI Overview
+![Home Dashboard](Images/HOME.png)
 
-✔ Patient & Admission Analysis
+The Home page provides an interactive navigation interface for accessing the different sections of the Hospital Management Analytics Dashboard.
 
-✔ Revenue Performance Analysis
+**Available Pages:**
 
-✔ Doctor Performance Dashboard
-
-✔ Department-wise Analysis
-
-✔ Bed Occupancy Monitoring
-
-✔ Machine Learning Risk Prediction
-
-✔ 3-Month Forecasting
-
-✔ Dynamic Filters & Navigation
+* Overview
+* Healthcare
+* Doctors
+* Prediction
+* Forecast
 
 ---
 
-## 📊 Dashboard Modules
+### 📈 Overview
 
-### 📍 Overview
-- Total Patients
-- Total Revenue
-- Total Admissions
-- Total Doctors
-- Monthly Trends
-- Department Analysis
+![Overview Dashboard](Images/OVERVIEW%20(2).png)
 
-### 🏥 Healthcare
-- Bed Occupancy
-- Bed Status
-- Average Length of Stay
-- Revenue by Department
-- Seasonal Admissions
+The Overview page provides a high-level summary of overall hospital performance.
 
-### 👨‍⚕️ Doctors
-- Doctor Performance
-- Patient Distribution
-- Revenue Contribution
-- Ratings & Insights
+**KPIs**
 
-### 🤖 Prediction
-- High Risk Patients
-- Medium Risk Patients
-- Low Risk Patients
-- Machine Learning Prediction
+* Total Patients
+* Total Revenue
+* Total Doctors
+* Total Admissions
 
-### 📈 Forecast
-- Patient Forecast
-- Admission Forecast
-- Revenue Forecast
-- Bed Occupancy Forecast
+**Visualizations**
+
+* Monthly Patient Trend
+* Patient Type Distribution
+* Monthly Revenue Trend
+* Department-wise Patient Analysis
+* Patient Distribution by Gender
+* Bed Type Distribution
 
 ---
 
-## 🛠 Tech Stack
+### 🏥 Healthcare Analysis
 
-| Tool | Purpose |
-|------|---------|
-| Microsoft Excel | Data Cleaning & Preparation |
-| Power BI | Dashboard Development |
-| DAX | Calculated Measures |
-| Machine Learning | Risk Prediction & Forecasting |
+![Healthcare Dashboard](Images/HEALTHCARE.png)
 
----
+The Healthcare page focuses on hospital operations, patient admissions, bed utilization, department performance, and length of stay.
 
-## 📷 Dashboard Preview
+**KPIs**
 
-> Add screenshots here.
+* Total Patients
+* Bed Occupancy
+* Total Admissions
+* Average Length of Stay
 
-- Home
-- Overview
-- Healthcare
-- Doctors
-- Prediction
-- Forecast
+**Visualizations**
 
----
-
-## 📈 Key Insights
-
-- Patient admissions show a stable upward trend.
-- Revenue analysis identifies high-performing departments.
-- Bed occupancy helps optimize hospital resources.
-- Machine Learning predicts patient risk categories.
-- Forecasting supports future planning and resource allocation.
+* Bed Occupancy by Department
+* Bed Status Distribution
+* Average Length of Stay by Department
+* Revenue by Department
+* Seasonal Admissions
+* Department Performance Analysis
 
 ---
 
-## 🎯 Skills Applied
+### 👨‍⚕️ Doctors Analysis
 
-- Data Cleaning
-- Data Transformation
-- Data Modeling
-- DAX
-- Dashboard Design
-- Business Intelligence
-- Predictive Analytics
-- Forecasting
-- Data Storytelling
+![Doctors Dashboard](Images/DOCTORS%20(2).png)
+
+The Doctors page evaluates doctor performance based on patient volume, revenue contribution, ratings, and consultation fees.
+
+**KPIs**
+
+* Total Doctors
+* Total Patients
+* Average Rating
+* Average Consultation Fee
+
+**Visualizations**
+
+* Top Doctors by Patients Treated
+* Top Doctors by Revenue
+* Top Rated Doctors
+* Average Rating by Department
+* Doctor Performance Analysis
+* Consultation Fee by Department
 
 ---
 
-## 👩‍💻 Author
+### 🤖 Patient Risk Prediction
 
-**Archana**
+![Prediction Dashboard](Images/PREDICTION.png)
 
-Aspiring Data Analyst passionate about transforming raw data into meaningful business insights through analytics and visualization.
+The Prediction page uses **Machine Learning-based analysis** to classify patients according to their predicted risk levels.
 
-⭐ If you found this project useful, consider giving it a star!
+**KPIs**
+
+* Total Patients
+* High Risk Patients
+* Medium Risk Patients
+* Low Risk Patients
+
+**Visualizations**
+
+* Patient Risk Distribution
+* Average Stay by Risk Level
+* Top Diseases Among High-Risk Patients
+* High-Risk Patients by Department
+* Admission Type by Risk Level
+* Patient Risk Details
+
+---
+
+### 🔮 Forecast
+
+![Forecast Dashboard](Images/FORECAST.png)
+
+The Forecast page provides a forward-looking analysis of expected hospital performance over the next three months.
+
+**KPIs**
+
+* Forecast Patients
+* Forecast Revenue
+* Patient Growth
+* Revenue Growth
+
+**Visualizations**
+
+* Patient Forecast
+* Admissions Forecast
+* Revenue Forecast
+* Occupied Beds Forecast
+
+---
+
+##  Dashboard Features
+
+* Interactive multi-page navigation
+* Dynamic filters and slicers
+* Executive KPI cards
+* Patient and admission analysis
+* Department-wise performance analysis
+* Doctor performance analysis
+* Revenue analysis
+* Bed occupancy monitoring
+* Patient risk prediction using Machine Learning
+* 3-month forecasting
+* Interactive charts and tables
+* Clean and business-focused dashboard design
+
+---
+
+## Tools & Technologies
+
+* **Microsoft Excel** – Data cleaning and preparation
+* **Power Query** – Data transformation
+* **Power BI** – Dashboard development and data visualization
+* **DAX** – Calculated measures and KPI development
+* **Machine Learning** – Patient risk prediction
+* **Forecasting** – Future patient, admission, revenue, and bed occupancy analysis
+
+---
+
+## Key Insights
+
+* Patient and admission trends provide a clear view of overall hospital activity.
+* Department-wise analysis helps identify high-performing departments based on patient volume and revenue.
+* Bed occupancy monitoring supports efficient hospital resource and capacity management.
+* Doctor performance analysis highlights differences in patients treated, revenue contribution, consultation fees, and ratings.
+* Machine Learning-based analysis categorizes patients into **High, Medium, and Low Risk** groups.
+* High-risk patient analysis helps identify departments and disease categories that may require greater attention.
+* Forecasting provides insights into expected patient volume, admissions, revenue, and bed occupancy over the next three months.
+* Interactive filters allow users to explore hospital performance from different perspectives and support data-driven decision-making.
+
+---
+
+## Author
+
+### **Archana**
+
+**Data Analyst | Excel | SQL | Python | Power BI**
+
+Passionate about building interactive dashboards and transforming data into actionable insights.
+
+🔗 **LinkedIn:** [www.linkedin.com/in/archana-ramesh-](http://www.linkedin.com/in/archana-ramesh-)
